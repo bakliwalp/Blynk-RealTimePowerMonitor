@@ -57,7 +57,7 @@
 #include <Adafruit_ADS1015.h>
 Adafruit_ADS1115 ads;  /* Use this for the 16-bit version */
 
-#include "SSD1306.h" // alias for #include "SSD1306Wire.h"
+#include "SSD1306.h" // alias for #include "SSD1306Wire.h" https://github.com/ThingPulse/esp8266-oled-ssd1306
  SSD1306  display(0x3c, D2, D1); // SDA, SCL , GPIO 13 and GPIO 12
 String display_temp;
 String display_humid;
